@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+  overflow-x: hidden;
+}
+
+main {
+  padding: 1rem;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.flex > div {
+  width: 50px;
+  height: 50px;
+  background-color: grey;
+  color: black;
+}
+
+.flex {
+  display: flex;
+  width: 90vw;
+  height: auto;
+  min-height: 50px;
+  border: 2px solid #000;
+  gap: 10px;
+  padding: 10px;
+}
+
+.flex_row {
+  flex-direction: row;
+}
+
+.flex_row_reverse {
+  flex-direction: row-reverse;
+}
+
+.flex_column {
+  flex-direction: column;
+}
+
+.flex_column_reverse {
+  flex-direction: column-reverse;
+}
+
+.navbar {
+  width: 100vw;
+  height: 60px;
+  background-color: black;
+  color: white;
+  padding: 0 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+.brand {
+  font-weight: 200;
+  user-select: none;
+}
+.nav_menu a {
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+  font-weight: 200;
+}
+.nav_menu a:hover {
+  color: orange;
+  background-color: aqua;
+}
+
+.page_navigation {
+  padding: 0 30px;
+  height: 40px;
+  background-color: orange;
+  color: white;
+  position: sticky;
+  top: 60px;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10;
+}
+
+.page_navigation a {
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+
+.justify_center {
+  justify-content: center;
+}
+
+.justify_start {
+  justify-content: start;
+}
+
+.justify_end {
+  justify-content: end;
+}
+
+.justify_around {
+  justify-content: space-around;
+}
+
+.justify_between {
+  justify-content: space-between;
+}
+
+.justify_evenly {
+  justify-content: space-evenly;
+}
+
+.align_center {
+  height: 300px;
+  align-items: center;
+}
+
+.align_start {
+  height: 300px;
+  align-items: flex-start;
+}
+
+.align_end {
+  height: 300px;
+  align-items: flex-end;
+}
+
+.align_strech {
+  height: 300px;
+  align-items: stretch;
+}
+
+.align_baseline {
+  height: 300px;
+  align-items: baseline;
+}

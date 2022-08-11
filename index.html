@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!--
+      Need a visual blank slate?
+      Remove all code in `styles.css`!
+    -->
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <!-- TOP NAVIGATION -->
+    <nav class="navbar">
+      <h1 class="brand">Flex Direction</h1>
+      <menu class="nav_menu">
+        <a href="#row">Row</a>
+        <a href="#row_reverse">Row Reverse</a>
+        <a href="#column">Column</a>
+        <a href="#column_reverse">Column Reverse</a>
+      </menu>
+    </nav>
+    <!-- END TOP NAVIGATION -->
+    <!-- PAGE NAVIGATION -->
+    <nav class="page_navigation">
+      <a href="/">Flex Direction</a>
+      <a href="/wrap.html">Flex Wrap</a>
+      <a href="/justify_content.html">Justify Content</a>
+      <a href="/align_items.html">Align Item</a>
+      <a href="/align_content.html">Align Content</a>
+    </nav>
+    <!-- PAGE NAVIGATION -->
+    <main>
+      <h1 id="row">Flex Direction Row (Default)</h1>
+      <div class="flex flex_row">
+        <div>Satu</div>
+        <div>Dua</div>
+        <div>Tiga</div>
+      </div>
+
+      <h1 id="row_reverse">Flex Direction Row reverse</h1>
+      <div class="flex flex_row_reverse">
+        <div>Satu</div>
+        <div>Dua</div>
+        <div>Tiga</div>
+      </div>
+
+      <h1 id="column">Flex Direction Column</h1>
+      <div class="flex flex_column">
+        <div>Satu</div>
+        <div>Dua</div>
+        <div>Tiga</div>
+      </div>
+
+      <h1 id="column_reverse">Flex Direction Column Reverse</h1>
+      <div class="flex flex_column_reverse">
+        <div>Satu</div>
+        <div>Dua</div>
+        <div>Tiga</div>
+      </div>
+    </main>
+  </body>
+</html>
